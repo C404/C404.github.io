@@ -10189,6 +10189,10 @@ header.masthead .masthead-heading {
   display: block;
   margin: 0 auto;
 }
+#portfolio .section-subheading  .pricing {
+  font-size: 1.2rem;
+  margin-bottom: 0.1rem;
+}
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
@@ -10503,4 +10507,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-color: black;
+  color: white;
 }
