@@ -10100,6 +10100,10 @@ img::-moz-selection {
   color: #fed136;
 }
 
+#mainNav img {
+  height: 1.4em;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
