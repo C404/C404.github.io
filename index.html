@@ -34,6 +34,8 @@
       <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
       <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
       <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+      <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet" type="text/css">
       <!-- Core theme CSS (includes Bootstrap)-->
       <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -48,8 +50,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">O nas</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Twórcy</a></li>
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#offer">OFERTA</a></li>
+                      <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#culture">KULTURA</a></li>
                         <li class="nav-item"><a class="nav-link" href="en/index.html"><img src="assets/img/flag_english.png"/></a></li>
                     </ul>
                 </div>
@@ -58,75 +60,67 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead">
-            <div class="container">
-              <div class="masthead-subheading">May the massage be with you</div>
-                <div class="masthead-heading text-uppercase">Masaż na Minuty</div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">DOWIEDZ SIĘ WIĘCEJ</a>
-            </div>
+          <div class="container">
+              <div class="masthead-heading text-uppercase font-nunito">Masaż na Minuty</div>
+              <div class="masthead-subheading font-nothing-to-do">May the massage be with you</div>
+              <!-- <a class="btn btn-primary btn-xl text-uppercase" href="./pl/book.html">Get your massage now</a> -->
+              <a href="#" role="button" class="btn btn-primary btn-xl text-uppercase popover-test" data-container="body" data-toggle="popover" data-placement="top" data-content="Zaczynamy w poniedziałek 🤗">ZAMÓW SWÓJ MASAŻ</a>
+          </div>
         </header>
-        <!-- Services-->
-        <section class="page-section" id="services">
+
+        <!-- Offer-->
+        <section class="page-section bg-light" id="offer">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">MASUJEMY</h2>
-                    <h3 class="section-subheading text-muted">Świadczymy usługę masażu dla każdego :)</h3>
-                </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-heartbeat fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Zdrowo</h4>
-                        <p class="text-muted">Rozluźnij ciało, pobudź umysł</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-stopwatch fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Na minuty</h4>
-                        <p class="text-muted">Krótkie sesje masażu, które zaoszczędzą Twój czas</p>
-                        <!-- We imagined our massages very short -->
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-bolt fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Od ręki i rękoma</h4>
-                        <p class="text-muted">Nie ma potrzeby dokonywania rezerwacji</p>
-                    </div>
+                <div class="row text-center font-nunito">
+                  <div class="col-md-3">
+                    <p class="details">Od poniedziałku<br />do piątku<br />w godz. 16 - 21</p>
+                  </div>
+                  <div class="col-md-6 price">
+                    <h1 >45 Minuty</h1>
+                    <hr />
+                    <h1>89 zł</h1>
+                  </div>
+                  <div class="col-md-3">
+                    <p class="details">Bez rezerwacji<br/>Jesteśmy u Ciebie<br />do 35 min 🚀</p>
+                  </div>
                 </div>
             </div>
         </section>
-        <!-- Team-->
-        <section class="page-section bg-light" id="team">
+
+        <!-- Culture-->
+        <section class="page-section" id="culture">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Twórcy</h2>
-                    <h3 class="section-subheading text-muted">Partners in crime since 1754.</h3>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
-                            <h4>Sylwia Bajek</h4>
-                            <p class="text-muted">Miłośniczka designu i łowca przygód</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
-                            <h4>Thibault Hagler</h4>
-                            <p class="text-muted">Entuzjasta startupów</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Pewnego letniego wieczoru postanowiliśmy połączyć siły aby zdemokratyzować masaż i udostępnić go dla każdego.</p></div>
+                    <h2 class="section-heading text-uppercase font-nunito">NASZA KULTURA MASAŻU</h2>
+                    <!-- <h3 class="section-subheading text-muted">Building a community of physiotherapists and massours</h3> -->
+
+                    <div class="row arguments font-nunito">
+                      <div class="col-md-4">
+                        <h3 class="font-nunito text-uppercase">BUDUJEMY SPOŁECZNOŚĆ</h4>
+                          Gromadzimy certyfikowanych masażystów<br />
+                          i fizjoterapeutów, budując silną sieć profesjonalistów, którzy pomogą nam w realizacji naszej misji, krok po kroku, masaż za masażem :)
+                      </div>
+
+                      <div class="col-md-4">
+                        <h3 class="font-nunito text-uppercase">DOSTEPNOŚĆ</h3>
+                        Wierzymy, że dobre samopoczucie nie powinno być produktem luksusowym, dlatego nasza oferta jest tak skonstruowana aby była dostępna dla szerokiej grupy osób!
+                      </div>
+
+                      <div class="col-md-4">
+                        <h3 class="font-nunito text-uppercase">SZYBKO I SPONTANICZNIE</h3>
+                        Masaż jest jak posiłek, czasami chcesz sobie pozwolić na chwilę przyjemności, innym razem jesteś głodny. W obu przypadkach chciałbyś otrzymać jedzenie tu i teraz, a nie np. jutro.<br/>
+                        Ten rodzaj spontaniczności jest możliwy tylko dzięki natychmiastowym zamówieniom.
+                      </div>
+                  </div>
                 </div>
             </div>
+        </section>
+        <!-- CTA-->
+        <section class="page-section text-center bg-light" id="cta">
+          <div class="container">
+            <!-- <a class="btn btn-primary btn-xl text-uppercase" href="./book.html">Get your massage now</a> -->
+            <a href="#cta" role="button" class="btn btn-primary btn-xl text-uppercase popover-test" data-container="body" data-toggle="popover" data-placement="top" data-content="Zaczynamy w poniedziałek 🤗">ZAMÓW SWÓJ MASAŻ</a>
+          </div>
         </section>
         <!-- Footer-->
         <footer class="footer py-4">
@@ -134,8 +128,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-left">Copyright © Masaż na Minuty 2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" target="_blank" href="https://www.facebook.com/masaznaminuty"><i class="fab fa-facebook"></i></a>
                         <a class="btn btn-dark btn-social mx-2" target="_blank" href="http://instagram.com/masaznaminuty"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="mailto:contact@masaznaminuty.pl"><i class="fas fa-envelope"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="mailto:paperwork@masaznaminuty.pl"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
             </div>
@@ -147,5 +142,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover()
+          })
+        </script>
     </body>
 </html>
