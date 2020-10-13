@@ -10325,6 +10325,8 @@ section#contact .section-heading {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
 }
 #offer .details {
   padding-top:8%;
@@ -10335,8 +10337,11 @@ section#contact .section-heading {
   /* padding-bottom: 100px; */
 }
 #offer .price {
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#offer .price .text-small {
+  font-size: 1.3rem;
 }
 #offer .price hr {
   border-top: 2px solid #FF8B00;
