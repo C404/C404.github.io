@@ -24,7 +24,23 @@
       <meta property="og:site_name" content="Masaż na Minuty"/>
       <meta property="article:publisher" content="http://facebook.com/masaznaminuty"/>
       <meta property="og:image" content="../assets/img/shareable.png"/>
-
+      <!-- Facebook Pixel Code -->
+      <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '701673644036326');
+      fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=701673644036326&ev=PageView&noscript=1"
+      /></noscript>
+      <!-- End Facebook Pixel Code -->
       <title>Masaż na minuty</title>
       <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
       <!-- Font Awesome icons (free version)-->
@@ -49,6 +65,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><span class="nav-link">At your place in <span style="font-weight: bold;">35 minutes<span/> 🚀</span></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#offer">Offer</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#culture">Culture</a></li>
                         <li class="nav-item"><a class="nav-link" href="../index.html"><img src="../assets/img/flag_polska.png"/></a></li>
@@ -69,18 +86,32 @@
         <!-- Offer-->
         <section class="page-section bg-light" id="offer">
             <div class="container">
+              <div class="text-center">
+                <!-- <h2 class="section-heading text-uppercase font-nunito">Our massage culture</h2> -->
+                <h3 class="section-subheading text-uppercase text-muted">
+                  Monday - Sunday<br />
+                  8AM - 9PM<br /><br />
+                  Relaxing | Sportive | Painkiller
+                </h3>
+              </div>
+
                 <div class="row text-center font-nunito">
-                  <div class="col-md-3">
+                  <!-- <div class="col-md-3">
                     <p class="details">7/7 days<br />from 8am til 9pm</p>
+                  </div> -->
+                  <div class="col-md-6 price">
+                    <h1 >45 Minutes - 89 zl</h1>
+                    <hr />
+                    <h1>90 Minutes - 165 zl</h1>
                   </div>
                   <div class="col-md-6 price">
                     <h1 >45 Minutes - 89 zl</h1>
                     <hr />
                     <h1>90 Minutes - 165 zl</h1>
                   </div>
-                  <div class="col-md-3">
+                  <!-- <div class="col-md-3">
                     <p class="details">No booking needed<br/>At your place in 35mins 🚀</p>
-                  </div>
+                  </div> -->
                 </div>
             </div>
         </section>
